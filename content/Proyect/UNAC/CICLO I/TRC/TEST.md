@@ -36,3 +36,10 @@ xychart-beta
     line "Demanda" [5, 4, 3, 2, 1]
     line "Oferta" [1, 2, 3, 4, 5]
 ```
+![[Pasted image 20260514171603.png|383]]
+
+| Precio | Cantidad | Curva   |
+| ------ | -------- | ------- |
+| 1      | 5        | Demanda |
+| Precio | Cantidad | Curva   |
+| 1      | 5        | Demanda |
