@@ -36,3 +36,11 @@ xychart-beta
     x-axis [2018, 2019, 2020, 2021, 2022]
     line [4.2, 4, -1.5, 2.7, 5.1]
 ```
+```mermaid
+xychart-beta
+    title "Precio vs Cantidad"
+    x-axis "Precio" [1, 2, 3, 4, 5]
+    y-axis "Cantidad"
+    line "Demanda" [5, 4, 3, 2, 1]
+    line "Oferta" [1, 2, 3, 4, 5]
+```
