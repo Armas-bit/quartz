@@ -41,5 +41,4 @@ xychart-beta
 | Precio | Cantidad | Curva   |
 | ------ | -------- | ------- |
 | 1      | 5        | Demanda |
-| Precio | Cantidad | Curva   |
-| 1      | 5        | Demanda |
+
