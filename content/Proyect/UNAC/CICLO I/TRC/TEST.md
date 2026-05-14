@@ -28,3 +28,11 @@ options:
   yField: value
 ```
 > TEST
+
+
+```mermaid
+xychart-beta
+    title "PBI vs Inflación"
+    x-axis [2018, 2019, 2020, 2021, 2022]
+    line [4.2, 4, -1.5, 2.7, 5.1]
+```
