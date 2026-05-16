@@ -1,6 +1,0 @@
----
-tags: [CICLO I, UNIDAD II, SEMANA IV, MDI]
----
-# TEST
->TEST
->TEST
