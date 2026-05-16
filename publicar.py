@@ -4,12 +4,11 @@ import re
 import subprocess
 import requests
 from pathlib import Path
-from urllib.parse import quote
 
 # ============================
 # CONFIGURACIÓN — EDITA AQUÍ
 # ============================
-CLICKUP_TOKEN = "pk_162137814_VSWSYU11V3AXPNMMDMJ8RZYYCQZZE1R4"
+CLICKUP_TOKEN = "TU_TOKEN_AQUI"
 WORKSPACE_ID = "90132299356"
 OBSIDIAN_VAULT = r"C:\Users\FABRICIO\Documents\Obsidian Memory"
 QUARTZ_DIR = r"C:\Windows\System32\quartz"
@@ -28,6 +27,9 @@ DOC_MAP = {
     ("MATEMÁTICA I", "UNIDAD I"):            "2ky4vfjw-2933",
     ("MATEMÁTICA I", "UNIDAD II"):           "2ky4vfjw-4053",
     ("MDI", "UNIDAD I"):                     "2ky4vfjw-2273",
+    ("MDI", "UNIDAD II"):                    "2ky4vfjw-2273",
+    ("INGLÉS I", "UNIDAD I"):               "2ky4vfjw-4133",
+    ("INGLÉS I", "UNIDAD II"):              "2ky4vfjw-4233",
 }
 
 # ============================
@@ -86,8 +88,8 @@ def construir_url_quartz(filepath):
     rel = os.path.relpath(filepath, OBSIDIAN_VAULT)
     rel_sin_ext = os.path.splitext(rel)[0]
     partes = rel_sin_ext.replace("\\", "/").split("/")
-    partes_encoded = [quote(p) for p in partes]
-    return f"https://{GITHUB_USER}.github.io/quartz/{'/'.join(partes_encoded)}"
+    partes_slug = [p.replace(" ", "-") for p in partes]
+    return f"https://{GITHUB_USER}.github.io/quartz/{'/'.join(partes_slug)}"
 
 def pagina_ya_existe(doc_id, semana):
     """Verifica si ya existe una página con ese nombre en el doc."""
@@ -169,8 +171,11 @@ def main():
             continue
 
         doc_id = DOC_MAP.get((curso, unidad))
-        if not doc_id:
-            print(f"⚠️  No encontré doc CLASES para {curso} / {unidad}")
+        if doc_id is None:
+            print(f"⚠️  Combinación no mapeada: {curso} / {unidad}")
+            continue
+        if doc_id == "":
+            print(f"⚠️  {curso} / {unidad} aún no tiene doc CLASES en ClickUp, omitiendo.")
             continue
 
         quartz_url = construir_url_quartz(filepath)
