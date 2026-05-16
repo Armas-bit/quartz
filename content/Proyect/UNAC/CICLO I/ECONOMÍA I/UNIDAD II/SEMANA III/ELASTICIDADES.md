@@ -1,13 +1,5 @@
 ---
-tags:
-  - CICLO I
-  - UNIDAD II
-  - SEMANA III
-  - ECONOMÍA
-autosync-database:
-  - UNAC
-NotionID-UNAC: 35e75f76-e3d2-814c-bf2e-c447f53c8cd8
-link-UNAC: https://www.notion.so/ELASTICIDADES-35e75f76e3d2814cbf2ec447f53c8cd8
+tags: [CICLO I, UNIDAD II, SEMANA III, ECONOMÍA I]
 ---
 
 # TIPOS DE ELASTICIDAD PRECIO DEMANDA

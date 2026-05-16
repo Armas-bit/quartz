@@ -96,7 +96,8 @@ def pagina_ya_existe(doc_id, semana):
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
         return False
-    pages = response.json().get("pages", [])
+    data = response.json()
+    pages = data if isinstance(data, list) else data.get("pages", [])
     for page in pages:
         if page.get("name", "").upper() == semana.upper():
             return True
