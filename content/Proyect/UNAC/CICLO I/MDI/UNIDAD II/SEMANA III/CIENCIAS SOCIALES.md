@@ -1,3 +1,6 @@
+---
+tags: [CICLO I, UNIDAD II, SEMANA III-A, MDI]
+---
 > **UNESCO**: Organo de la ONU especializado en la educacion.
 ### Concepto y Naturaleza
 

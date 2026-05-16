@@ -1,13 +1,5 @@
 ---
-tags:
-  - CICLO I
-  - UNIDAD II
-  - SEMANA III
-  - DERECHO CONSTITUCIONAL
-NotionID-UNAC: 36075f76-e3d2-812f-92d0-e089f1265934
-link-UNAC: https://www.notion.so/PODER-JUDICIAL-36075f76e3d2812f92d0e089f1265934
-autosync-database:
-  - UNAC
+tags: [CICLO I, UNIDAD II, SEMANA III-A, DERECHO CONSTITUCIONAL]
 ---
 ![[Pasted image 20260514082530.png]]
 

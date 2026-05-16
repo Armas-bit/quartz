@@ -1,3 +1,6 @@
+---
+tags: [CICLO I, UNIDAD II, SEMANA III-B, DERECHO CONSTITUCIONAL]
+---
 # ACADEMIA DE LA MAGISTRATURA
 Prepara a los abogados para ser **MAGISTRADOS**(NO DEL TRIBUNAL CONSTITUCIONAL)(jueces y fiscales)
 

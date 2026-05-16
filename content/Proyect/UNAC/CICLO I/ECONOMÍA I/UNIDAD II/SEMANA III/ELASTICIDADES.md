@@ -1,7 +1,6 @@
 ---
-tags: [CICLO I, UNIDAD II, SEMANA III, ECONOMÍA I]
+tags: [CICLO I, UNIDAD II, SEMANA III-B, ECONOMÍA I]
 ---
-
 # TIPOS DE ELASTICIDAD PRECIO DEMANDA
 
 | TIPO                     | VALOR        | RESPUESTA    |
