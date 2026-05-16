@@ -8,7 +8,7 @@ from pathlib import Path
 # ============================
 # CONFIGURACIÓN — EDITA AQUÍ
 # ============================
-CLICKUP_TOKEN = "TU_TOKEN_AQUI"
+CLICKUP_TOKEN = "pk_162137814_HZCQCCLGNGB07TJP4QO4BHP3HXXGSU6H"
 WORKSPACE_ID = "90132299356"
 OBSIDIAN_VAULT = r"C:\Users\FABRICIO\Documents\Obsidian Memory"
 QUARTZ_DIR = r"C:\Windows\System32\quartz"
@@ -94,7 +94,7 @@ def construir_url_quartz(filepath):
 def pagina_ya_existe(doc_id, semana):
     """Verifica si ya existe una página con ese nombre en el doc."""
     url = f"https://api.clickup.com/api/v3/workspaces/{WORKSPACE_ID}/docs/{doc_id}/pages"
-    headers = {"Authorization": CLICKUP_TOKEN}
+    headers = {"Authorization": f"Bearer {CLICKUP_TOKEN}"}
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
         return False
@@ -109,9 +109,9 @@ def crear_pagina_clickup(doc_id, semana, quartz_url, nombre_nota):
     """Crea una nueva página en el doc CLASES de ClickUp."""
     url = f"https://api.clickup.com/api/v3/workspaces/{WORKSPACE_ID}/docs/{doc_id}/pages"
     headers = {
-        "Authorization": CLICKUP_TOKEN,
-        "Content-Type": "application/json"
-    }
+    "Authorization": f"Bearer {CLICKUP_TOKEN}",
+    "Content-Type": "application/json"
+}
     body = {
         "name": semana,
         "content": f"# {nombre_nota}\n\n[Ver nota en Quartz]({quartz_url})"
