@@ -9,7 +9,7 @@ from urllib.parse import quote
 # ============================
 # CONFIGURACIÓN — EDITA AQUÍ
 # ============================
-CLICKUP_TOKEN = "TU_TOKEN_AQUI"
+CLICKUP_TOKEN = "pk_162137814_VSWSYU11V3AXPNMMDMJ8RZYYCQZZE1R4"
 WORKSPACE_ID = "90132299356"
 OBSIDIAN_VAULT = r"C:\Users\FABRICIO\Documents\Obsidian Memory"
 QUARTZ_DIR = r"C:\Windows\System32\quartz"
