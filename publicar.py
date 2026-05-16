@@ -9,7 +9,7 @@ from urllib.parse import quote
 # ============================
 # CONFIGURACIÓN — EDITA AQUÍ
 # ============================
-CLICKUP_TOKEN = "pk_162137814_VSWSYU11V3AXPNMMDMJ8RZYYCQZZE1R4"
+CLICKUP_TOKEN = "TU_TOKEN_AQUI"
 WORKSPACE_ID = "90132299356"
 OBSIDIAN_VAULT = r"C:\Users\FABRICIO\Documents\Obsidian Memory"
 QUARTZ_DIR = r"C:\Windows\System32\quartz"
@@ -20,7 +20,7 @@ PROCESADOS_FILE = r"C:\Windows\System32\quartz\procesados.json"
 DOC_MAP = {
     ("ECONOMÍA I", "UNIDAD I"):              "2ky4vfjw-2113",
     ("ECONOMÍA I", "UNIDAD II"):             "2ky4vfjw-3033",
-    ("DERECHO CONSITUCIONAL", "UNIDAD I"):   "2ky4vfjw-2233",
+    ("DERECHO CONSTITUCIONAL", "UNIDAD I"):  "2ky4vfjw-2233",
     ("NEGOCIOS GLOBALES", "UNIDAD I"):       "2ky4vfjw-2853",
     ("NEGOCIOS GLOBALES", "UNIDAD II"):      "2ky4vfjw-4073",
     ("TRC", "UNIDAD I"):                     "2ky4vfjw-2673",
