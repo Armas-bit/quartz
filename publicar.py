@@ -117,6 +117,8 @@ def crear_pagina_clickup(doc_id, semana, quartz_url, nombre_nota):
         "content": f"# {nombre_nota}\n\n[Ver nota en Quartz]({quartz_url})"
     }
     response = requests.post(url, headers=headers, json=body)
+    if response.status_code not in [200, 201]:
+        print(f"   → Status: {response.status_code}, Respuesta: {response.text[:200]}")
     return response.status_code in [200, 201]
 
 def sincronizar_quartz():
