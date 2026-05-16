@@ -94,7 +94,7 @@ def construir_url_quartz(filepath):
 def pagina_ya_existe(doc_id, semana):
     """Verifica si ya existe una página con ese nombre en el doc."""
     url = f"https://api.clickup.com/api/v3/workspaces/{WORKSPACE_ID}/docs/{doc_id}/pages"
-    headers = {"Authorization": f"Bearer {CLICKUP_TOKEN}"}
+    headers = {"Authorization": CLICKUP_TOKEN}
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
         return False
@@ -109,7 +109,7 @@ def crear_pagina_clickup(doc_id, semana, quartz_url, nombre_nota):
     """Crea una nueva página en el doc CLASES de ClickUp."""
     url = f"https://api.clickup.com/api/v3/workspaces/{WORKSPACE_ID}/docs/{doc_id}/pages"
     headers = {
-    "Authorization": f"Bearer {CLICKUP_TOKEN}",
+    "Authorization": CLICKUP_TOKEN,
     "Content-Type": "application/json"
 }
     body = {
