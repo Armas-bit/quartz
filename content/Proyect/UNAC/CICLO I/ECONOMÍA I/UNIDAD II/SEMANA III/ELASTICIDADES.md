@@ -23,68 +23,15 @@ $$E_p^O = \frac{\% \Delta Q_O}{\% \Delta P} = \frac{\Delta Q_O}{\Delta P} \cdot 
 | E=0   | Unitaria   |
 | E>1   | Elástica   |
 
-
-```chartsview
-#-----------------------------------------
-# Chart Options
-#-----------------------------------------
-type: Line
-options:
-  xField: "precio"
-  yField: "cantidad"
-  seriesField: "tipo"
-  smooth: false
-  xAxis:
-    title:
-      text: "Precio P"
-  yAxis:
-    title:
-      text: "Cantidad Q"
-
-#-----------------------------------------
-# Chart Data
-#-----------------------------------------
-data:
-  - precio: 0
-    cantidad: 0
-    tipo: "Elástica"
-  - precio: 1
-    cantidad: 2
-    tipo: "Elástica"
-  - precio: 2
-    cantidad: 4
-    tipo: "Elástica"
-  - precio: 3
-    cantidad: 6
-    tipo: "Elástica"
-  - precio: 4
-    cantidad: 8
-    tipo: "Elástica"
-  - precio: 5
-    cantidad: 10
-    tipo: "Elástica"
-  - precio: 0
-    cantidad: 0
-    tipo: "Inelástica"
-  - precio: 1
-    cantidad: 0.5
-    tipo: "Inelástica"
-  - precio: 2
-    cantidad: 1
-    tipo: "Inelástica"
-  - precio: 3
-    cantidad: 1.5
-    tipo: "Inelástica"
-  - precio: 4
-    cantidad: 2
-    tipo: "Inelástica"
-  - precio: 5
-    cantidad: 2.5
-    tipo: "Inelástica"
+```mermaid
+xychart-beta
+    title "Elasticidad: línea alta=Elástica, baja=Inelástica"
+    x-axis "Precio P" [0, 1, 2, 3, 4, 5]
+    y-axis "Cantidad Q" 0 --> 10
+    line [0, 2, 4, 6, 8, 10]
+    line [0, 0.5, 1, 1.5, 2, 2.5]
 ```
-
 # ELASTICIDAD INGRESO DEMANDA
-
 $$E_Y = \frac{\% \Delta Q_D}{\% \Delta Y}$$
 
 | TIPO DE BIEN          | VALOR  |
