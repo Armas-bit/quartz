@@ -47,3 +47,30 @@ $$E_{XY} = \frac{\% \Delta Q_{D_X}}{\% \Delta P_Y}$$
 > 	Exy > 0 --> SUSTITUTOS
 > 	Exy < 0 --> COMPLEMENTARIOS
 > 	Exy = 0 --> INDEPENDIENTES
+
+
+<canvas id="elasticidad"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+new Chart(document.getElementById("elasticidad"), {
+  type: "line",
+  data: {
+    labels: [0,1,2,3,4,5],
+    datasets: [
+      {
+        label: "Elástica",
+        data: [0,2,4,6,8,10],
+        borderColor: "#4e79a7",
+        tension: 0
+      },
+      {
+        label: "Inelástica",
+        data: [0,0.5,1,1.5,2,2.5],
+        borderColor: "#f28e2b",
+        tension: 0
+      }
+    ]
+  }
+});
+</script>
+
