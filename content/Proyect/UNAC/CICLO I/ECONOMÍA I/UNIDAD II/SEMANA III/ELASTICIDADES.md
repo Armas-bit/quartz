@@ -20,7 +20,7 @@ $$E_p^O = \frac{\% \Delta Q_O}{\% \Delta P} = \frac{\Delta Q_O}{\Delta P} \cdot 
 | VALOR | TIPO       |
 | ----- | ---------- |
 | E<1   | Inelástica |
-| E=0   | Unitaria   |
+| E=1   | Unitaria   |
 | E>1   | Elástica   |
 
 ```mermaid
@@ -34,11 +34,11 @@ xychart-beta
 # ELASTICIDAD INGRESO DEMANDA
 $$E_Y = \frac{\% \Delta Q_D}{\% \Delta Y}$$
 
-| TIPO DE BIEN          | VALOR  |
-| --------------------- | ------ |
-| Normal Superior(lujo) | E>1    |
-| Normal Necesario      | 0<E<=1 |
-| Inferior              | E<0    |
+| TIPO DE BIEN          | VALOR |
+| --------------------- | ----- |
+| Normal Superior(lujo) | E>1   |
+| Normal Necesario      | 0<E≤1 |
+| Inferior              | E<0   |
 
 # ELASTICIDAD CRUZADA
 
@@ -47,5 +47,3 @@ $$E_{XY} = \frac{\% \Delta Q_{D_X}}{\% \Delta P_Y}$$
 > 	Exy > 0 --> SUSTITUTOS
 > 	Exy < 0 --> COMPLEMENTARIOS
 > 	Exy = 0 --> INDEPENDIENTES
-
-EQUISDE
