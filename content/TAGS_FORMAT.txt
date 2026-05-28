@@ -1,3 +1,13 @@
 ---
-tags: [CICLO I, UNIDAD II, SEMANA III-A, NEGOCIOS GLOBALES]
+tags: [CICLO I, UNIDAD II, SEMANA V-A, ECONOMÍA I]
 ---
+
+
+
+
+
+
+
+
+
+python -c "from markitdown import MarkItDown; md = MarkItDown(); r = md.convert('C:/Users/FABRICIO/Desktop/EXTRACT/2026-A-actual.pdf'); open('document.md', 'w', encoding='utf-8').write(r.text_content)"                                                                                                                                                                                   
