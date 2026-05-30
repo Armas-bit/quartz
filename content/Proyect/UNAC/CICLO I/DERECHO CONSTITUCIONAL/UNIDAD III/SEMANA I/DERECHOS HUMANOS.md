@@ -13,12 +13,12 @@ Conjunto de valores **mínimos** que se deben respetar. Derivados del **reconoci
 - **DIMENSIÓN NORMATIVA**: Reconocidos en su mayoría principalmente en ==tratados internacionales==.
 %% PACTO DE SAN JOSÉ --> CONVENCIÓN AMERICANA DE DERECHOS HUMANOS %%
 # TITULARIDAD
+**EL SER HUMANO,** persona natural. Incluyendo sociedades indígenas.
 
 
 
 
 
-
-%% LOS DERECHOS PROCLAMADOS POR LA ONU SON MUNDIALES , a excepcion de 2 o 3 %%
+%% LOS DERECHOS PROCLAMADOS POR LA ONU SON MUNDIALES , a excepcion de 2 o 3 países %%
 
 
