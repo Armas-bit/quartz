@@ -11,3 +11,10 @@ Todo parte de una realidad compleja, tras un proceso de selección se crean grup
 >**INVESTIGAR** --> *In vestigium ire*
 >Rastrear un vestigio importante, huella o rastro.
 
+## PROCESO DE INVESTIGACIÓN
+- FUNDAMENTACIÓN TEÓRICA
+- CONTRASTACIÓN EMPÍRICA
+- RESULTADOS
+![[Pasted image 20260529224413.png]]
+# EL PROBLEMA DE INVESTIGACIÓN
+La primera fase es situar nuestra investigación, encuadrarla y acotarla. Esto nos ayuda a definir los límites de la misma y a mantener el enfoque sobre lo que estamos desarrollando
